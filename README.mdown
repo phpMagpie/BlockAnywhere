@@ -1,0 +1,31 @@
+# Blockanywhere for Croogo CMS
+
+Description of plugin
+
+## Installation
+
+#### Automatic Plugin Installer
+  * Download this package
+  * Login to your Croogo admin screen
+  * Go to 'Extensions' and then choose 'Plugins'
+  * Click on the Upload button
+  * Select this package
+  * Done!
+
+  
+#### Manual Instalation
+  * Download and unzip the .zip file or the source code
+  * Extract nodeplugin inside your croogo_folder/plugins
+  
+  
+  
+## Credit
+
+Author: Darren Moore
+
+E-mail: darren.m@firecreek.co.uk
+
+Website: http://www.firecreek.co.uk
+
+  
+
