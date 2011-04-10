@@ -2,6 +2,41 @@
 
 Description of plugin
 
+You can put blocks into the following:
+
+* Layout
+* Views
+* Elements
+* Blocks (with a change, see below)
+* Blocks within blocks
+* Node body and excerpt
+* Any node field (if defined in BlockHelper::nodeFields)
+
+
+## Usage
+
+### Layout, view, element
+
+    $this->Block->display('alias_of_block');
+
+
+### Node body/excerpt
+
+    [block:alias_of_block] or [b:alias_of_block]
+
+
+## Blocks
+
+Croogo has no callback when LayoutHelper::blocks() is called so to make sure
+blocks are parsed replace the following in your layouts:
+
+    echo $this->Layout->blocks('alias_of_block');
+
+with...
+
+    echo $this->Block->blocks('alias_of_block');
+
+
 ## Installation
 
 #### Automatic Plugin Installer
