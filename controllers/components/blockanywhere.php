@@ -82,7 +82,7 @@
             'Block.status' => 1,
         ),
         'cache' => array(
-            'prefix' => 'blockanywhere_blocks_',
+            'prefix' => 'blocks_',
             'config' => 'croogo_blocks',
         ),
         'recursive' => '-1',
