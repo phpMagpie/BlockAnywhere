@@ -53,14 +53,15 @@ with...
   * Extract nodeplugin inside your croogo_folder/plugins
   
   
-  
 ## Credit
 
 Author: Darren Moore
-
 E-mail: darren.m@firecreek.co.uk
-
 Website: http://www.firecreek.co.uk
 
-  
 
+## Converted to 1.4
+
+Author: Paul Gardner
+E-mail: paul@webbedit.co.uk
+Website: http://www.webbedit.co.uk
